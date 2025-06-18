@@ -20,9 +20,9 @@ return [
 
 
 
-    'client_id' => env('GOOGLE_CLIENT_ID', '224687288943-faaraufjl9j2ba23rmv2m628ov8ntvsb.apps.googleusercontent.com'),
-    'client_secret' => env('GOOGLE_CLIENT_SECRET', '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'),
-    'redirect_uri' => env('GOOGLE_REDIRECT', 'https://lasalletuxtla.aulaescolar.net/app/inicio'),
+    'client_id' => env('GOOGLE_CLIENT_ID', ''),
+    'client_secret' => env('GOOGLE_CLIENT_SECRET', ''),
+    'redirect_uri' => env('GOOGLE_REDIRECT', ''),
     'scopes' => [\Google\Service\Sheets::DRIVE, \Google\Service\Sheets::SPREADSHEETS],
     'access_type' => 'online',
     'approval_prompt' => 'auto',
@@ -38,7 +38,7 @@ return [
     | a Server key, and not a Browser key.
     |
     */
-    'developer_key' => env('GOOGLE_DEVELOPER_KEY', 'AIzaSyDvjiCxKFdbI3QyG6ZbrlR41hlU4bx6j9Y'),
+    'developer_key' => env('GOOGLE_DEVELOPER_KEY', ''),
 
     /*
     |----------------------------------------------------------------------------
