@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Models\Boletin;
 use Illuminate\Http\Request;
 use SheetDB\SheetDB;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class BoletinController extends Controller
 {
@@ -15,9 +15,27 @@ class BoletinController extends Controller
      */
     public function index()
     {
-        $sheetdb = new SheetDB('5ognlxtnb8jy0');
-        dd($sheetdb->get());
-        //return $sheetdb;
+        $sheetdb = new SheetDB('3lmc9v4ac2s70');
+        //return $sheetdb->get();
+        $arraycal = $sheetdb->get();
+        //$arraycal = [{"nombre":"jose","cal1":"7","cal2":"10","cal3":"5"},{"nombre":"antonio","cal1":"8","cal2":"9","cal3":"6"},{"nombre":"carlos","cal1":"10","cal2":"10","cal3":"10"}];
+        //$arraycal = ["nombre" => "jose", "cal1" => "10","cal2" => "8"];
+       // return $arraycal;
+        //return view('boletin.index', ['rows' => $arraycal]);
+        $data = [
+
+            'title' => 'Welcome to ItSolutionStuff.com',
+
+            'date' => date('m/d/Y'),
+
+            'rows' => $arraycal
+
+        ]; 
+
+        $pdf = PDF::loadView('boletin.index', $data);
+        $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
+        return $pdf->stream('itsolutionstuff.pdf');
+        //return $pdf->download(); 
     }
 
     /**
