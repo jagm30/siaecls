@@ -23,3 +23,4 @@ Route::get('/boletin4a', [BoletinController::class, 'boletin4a']);
 Route::get('/boletin4b', [BoletinController::class, 'cuartoB']);
 
 
+
