@@ -60,6 +60,30 @@ class BoletinController extends Controller
         //return $pdf->download(); 
     }
 
+    public function boletin4a(){
+    
+        // Reemplaza 'xlfugl8u5w4js' con tu clave de SheetDB
+        
+        $sheetdb = new SheetDB('xlfugl8u5w4js');    
+        $arraycal = $sheetdb->get();
+
+         $data = [
+
+            'title' => 'Welcome to ItSolutionStuff.com',
+
+            'date' => date('m/d/Y'),
+
+            'rows' => $arraycal
+
+        ]; 
+
+        $pdf = PDF::loadView('boletin.index', $data);
+        $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
+        return $pdf->stream('itsolutionstuff.pdf');
+        //return $pdf->download(); 
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *
