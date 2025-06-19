@@ -18,4 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/boletin', [BoletinController::class, 'index']);
+Route::get('/boletin4a', [BoletinController::class, 'boletin4a']);
+
 

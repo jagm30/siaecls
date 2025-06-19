@@ -38,6 +38,23 @@ class BoletinController extends Controller
         //return $pdf->download(); 
     }
 
+    public function boletin4a()
+    {
+        
+        // Reemplaza 'xlfugl8u5w4js' con tu clave de SheetDB     
+        $sheetdb = new SheetDB('xlfugl8u5w4js');
+
+        $arraycal = $sheetdb->get();
+        $data = [
+            'title' => 'Welcome to ItSolutionStuff.com',
+            'date' => date('m/d/Y'),
+            'rows' => $arraycal
+        ]; 
+
+        $pdf = PDF::loadView('boletin.boletin4a', $data);
+        return $pdf->download('itsolutionstuff.pdf');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
