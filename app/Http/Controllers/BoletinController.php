@@ -77,7 +77,27 @@ class BoletinController extends Controller
 
         ]; 
 
-        $pdf = PDF::loadView('boletin.index', $data);
+        $pdf = PDF::loadView('boletin.boletin4a', $data);
+        $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
+        return $pdf->stream('itsolutionstuff.pdf');
+        //return $pdf->download(); 
+    }
+
+     public function cuartoB(){
+        $sheetdb = new SheetDB('r6s8zjc5l54r0');
+        $arraycal = $sheetdb->get();
+
+         $data = [
+
+            'title' => 'Welcome to ItSolutionStuff.com',
+
+            'date' => date('m/d/Y'),
+
+            'rows' => $arraycal
+
+        ]; 
+
+        $pdf = PDF::loadView('boletin.cuartoB', $data);
         $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
         return $pdf->stream('itsolutionstuff.pdf');
         //return $pdf->download(); 
