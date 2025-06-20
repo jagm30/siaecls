@@ -19,4 +19,8 @@ Route::get('/', function () {
 });
 Route::get('/boletin', [BoletinController::class, 'index']);
 Route::get('/boletin2b', [BoletinController::class, 'segundoB']);
+Route::get('/boletin4a', [BoletinController::class, 'boletin4a']);
+Route::get('/boletin4b', [BoletinController::class, 'cuartoB']);
+
+
 
