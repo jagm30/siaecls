@@ -103,7 +103,7 @@ class BoletinController extends Controller
         //return $pdf->download(); 
     }
     public function sextoQB(){
-        $sheetdb = new SheetDB('r6s8zjc5l54r0');
+        $sheetdb = new SheetDB('kdofqssslvrdw');
         $arraycal = $sheetdb->get();
 
          $data = [
