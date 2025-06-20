@@ -25,7 +25,6 @@ Route::get('/boletincfm', [BoletinController::class, 'boletinCFM']);
 
 Route::get('/boletin6csh', [BoletinController::class, 'sextoCSH']);
 Route::get('/boletin6ea', [BoletinController::class, 'sextoEA']);
-Route::get('/boletin6fm', [BoletinController::class, 'sextoFM']);
 Route::get('/boletin6qb', [BoletinController::class, 'sextoQB']);
 
 
