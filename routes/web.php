@@ -23,4 +23,10 @@ Route::get('/boletin4a', [BoletinController::class, 'boletin4a']);
 Route::get('/boletin4b', [BoletinController::class, 'cuartoB']);
 
 
+Route::get('/boletin6csh', [BoletinController::class, 'sextoCSH']);
+Route::get('/boletin6ea', [BoletinController::class, 'sextoEA']);
+Route::get('/boletin6fm', [BoletinController::class, 'sextoFM']);
+Route::get('/boletin6qb', [BoletinController::class, 'sextoQB']);
+
+
 
