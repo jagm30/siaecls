@@ -85,32 +85,32 @@
             <p style=" top: 319px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FISICAIVP1<=5) color:red; @endif">{{$row->FISICAIVP1}}</p>
             <p style=" top: 349px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->QUIMICAIVP1<=5) color:red; @endif">{{$row->QUIMICAIVP1}}</p>
             <p style=" top: 380px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOLOGIAIIIP1<=5) color:red; @endif">{{$row->BIOLOGIAIIIP1}}</p>
-            <p style=" top: 410px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->TCULDIGP1<=5) color:red; @endif">{{$row->TCULDIGP1}}</p>
-            <p style=" top: 440px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ESPSOCP1<=5) color:red; @endif">{{$row->ESPSOCP1}}</p>
-            <p style=" top: 470px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PLITP1<=5) color:red; @endif">{{$row->PLITP1}}</p>
-            <p style=" top: 515px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S3FLABP1<=5) color:red; @endif">{{$row->S3FLABP1}}</p>
-            <p style=" top: 545px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S4FLABP1<=5) color:red; @endif">{{$row->S4FLABP1}}</p>
-            <p style=" top: 575px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDP1<=5) color:red; @endif">{{$row->ORIEDP1}}</p>
-            <p style=" top: 605px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CCULP1<=5) color:red; @endif">{{$row->CCULP1}}</p>
-            <p style=" top: 637px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CDEPP1<=5) color:red; @endif">{{$row->CDEPP1}}</p>
-            <p style=" top: 667px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORVALP1<=5) color:red; @endif">{{$row->FORVALP1}}</p>
-            
+            <p style=" top: 410px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOQUIMP1<=5) color:red; @endif">{{$row->BIOQUIMP1}}</p>
+            <p style=" top: 440px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CIENSALP1<=5) color:red; @endif">{{$row->CIENSALP1}}</p>
+            <p style=" top: 470px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PSICOLOGIAP1<=5) color:red; @endif">{{$row->PSICOLOGIAP1}}</p>
+            <p style=" top: 515px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABP1<=5) color:red; @endif">{{$row->CAPTRABP1}}</p>
+            <p style=" top: 545px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALP1<=5) color:red; @endif">{{$row->CULTURALP1}}</p>
+            <p style=" top: 575px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOP1<=5) color:red; @endif">{{$row->DEPORTIVOP1}}</p>
+            <p style=" top: 605px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCP1<=5) color:red; @endif">{{$row->ORIEDUCP1}}</p>
+            <p style=" top: 637px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEP1<=5) color:red; @endif">{{$row->FORMFEP1}}</p>
+            <p style=" top: 667px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAP1<=5) color:red; @endif">{{$row->DISCIPLINAP1}}</p>
+
         <!-- Inasistencias 1er parcial -->
             <p style=" top: 257px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->MATVIP1I}}</p>
             <p style=" top: 288px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ESTADISCIIP1I}}</p>
             <p style=" top: 319px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FISICAIVP1I}}</p>
             <p style=" top: 349px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->QUIMICAIVP1I}}</p>
             <p style=" top: 380px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->BIOLOGIAIIIP1I}}</p>
-            <p style=" top: 410px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->TCULDIGP1I}}</p>
-            <p style=" top: 440px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ESPSOCP1I}}</p>
-            <p style=" top: 470px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->PLITP1I}}</p>
-            <p style=" top: 515px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->S3FLABP1I}}</p>
-            <p style=" top: 545px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->S4FLABP1I}}</p>
-            <p style=" top: 575px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDP1I}}</p>
-            <p style=" top: 605px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CCULP1I}}</p>
-            <p style=" top: 637px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CDEPP1I}}</p>
-            <p style=" top: 667px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORVALP1I}}</p>
-            
+            <p style=" top: 410px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->BIOQUIMP1I}}</p>
+            <p style=" top: 440px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CIENSALP1I}}</p>
+            <p style=" top: 470px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->PSICOLOGIAP1I}}</p>
+            <p style=" top: 515px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CAPTRABP1I}}</p>
+            <p style=" top: 545px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CULTURALP1I}}</p>
+            <p style=" top: 575px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DEPORTIVOP1I}}</p>
+            <p style=" top: 605px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDUCP1I}}</p>
+            <p style=" top: 637px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORMFEP1I}}</p>
+            <p style=" top: 667px;left: 384px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DISCIPLINAP1I}}</p>
+
 
 
              <!-- Calificaciones-- 2do parcial -->
@@ -119,32 +119,32 @@
             <p style=" top: 319px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FISICAIVP2<=5) color:red; @endif ">{{$row->FISICAIVP2}}</p>
             <p style=" top: 349px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->QUIMICAIVP2<=5) color:red; @endif ">{{$row->QUIMICAIVP2}}</p>
             <p style=" top: 380px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOLOGIAIIIP2<=5) color:red; @endif ">{{$row->BIOLOGIAIIIP2}}</p>
-            <p style=" top: 410px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->TCULDIGP2<=5) color:red; @endif ">{{$row->TCULDIGP2}}</p>
-            <p style=" top: 440px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ESPSOCP2<=5) color:red; @endif ">{{$row->ESPSOCP2}}</p>
-            <p style=" top: 470px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PLITP2<=5) color:red; @endif ">{{$row->PLITP2}}</p>
-            <p style=" top: 515px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S3FLABP2<=5) color:red; @endif ">{{$row->S3FLABP2}}</p>
-            <p style=" top: 545px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S4FLABP2<=5) color:red; @endif ">{{$row->S4FLABP2}}</p>
-            <p style=" top: 575px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDP2<=5) color:red; @endif ">{{$row->ORIEDP2}}</p>
-            <p style=" top: 605px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CCULP2<=5) color:red; @endif ">{{$row->CCULP2}}</p>
-            <p style=" top: 637px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CDEPP2<=5) color:red; @endif ">{{$row->CDEPP2}}</p>
-            <p style=" top: 667px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORVALP2<=5) color:red; @endif ">{{$row->FORVALP2}}</p>
-            
+            <p style=" top: 410px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOQUIMP2<=5) color:red; @endif ">{{$row->BIOQUIMP2}}</p>
+            <p style=" top: 440px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CIENSALP2<=5) color:red; @endif ">{{$row->CIENSALP2}}</p>
+            <p style=" top: 470px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PSICOLOGIAP2<=5) color:red; @endif ">{{$row->PSICOLOGIAP2}}</p>
+            <p style=" top: 515px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABP2<=5) color:red; @endif ">{{$row->CAPTRABP2}}</p>
+            <p style=" top: 545px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALP2<=5) color:red; @endif ">{{$row->CULTURALP2}}</p>
+            <p style=" top: 575px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOP2<=5) color:red; @endif ">{{$row->DEPORTIVOP2}}</p>
+            <p style=" top: 605px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCP2<=5) color:red; @endif ">{{$row->ORIEDUCP2}}</p>
+            <p style=" top: 637px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEP2<=5) color:red; @endif ">{{$row->FORMFEP2}}</p>
+            <p style=" top: 667px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAP2<=5) color:red; @endif ">{{$row->DISCIPLINAP2}}</p>
+
         <!-- Inasistencias 2do parcial -->
             <p style=" top: 257px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->MATVIP2I}}</p>
             <p style=" top: 288px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ESTADISCIIP2I}}</p>
             <p style=" top: 319px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FISICAIVP2I}}</p>
             <p style=" top: 349px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->QUIMICAIVP2I}}</p>
             <p style=" top: 380px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->BIOLOGIAIIIP2I}}</p>
-            <p style=" top: 410px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->TCULDIGP2I}}</p>
-            <p style=" top: 440px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ESPSOCP2I}}</p>
-            <p style=" top: 470px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->PLITP2I}}</p>
-            <p style=" top: 515px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->S3FLABP2I}}</p>
-            <p style=" top: 545px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->S4FLABP2I}}</p>
-            <p style=" top: 575px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDP2I}}</p>
-            <p style=" top: 605px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CCULP2I}}</p>
-            <p style=" top: 637px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CDEPP2I}}</p>
-            <p style=" top: 667px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORVALP2I}}</p>
-           
+            <p style=" top: 410px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->BIOQUIMP2I}}</p>
+            <p style=" top: 440px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CIENSALP2I}}</p>
+            <p style=" top: 470px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->PSICOLOGIAP2I}}</p>
+            <p style=" top: 515px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CAPTRABP2I}}</p>
+            <p style=" top: 545px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CULTURALP2I}}</p>
+            <p style=" top: 575px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DEPORTIVOP2I}}</p>
+            <p style=" top: 605px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDUCP2I}}</p>
+            <p style=" top: 637px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORMFEP2I}}</p>
+            <p style=" top: 667px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DISCIPLINAP2I}}</p>
+
 
             <!-- Calificaciones-- 3er parcial -->
             <p style=" top: 257px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->MATVIP3<=5) color:red; @endif ">{{$row->MATVIP3}}</p>
@@ -152,49 +152,49 @@
             <p style=" top: 319px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FISICAIVP3<=5) color:red; @endif ">{{$row->FISICAIVP3}}</p>
             <p style=" top: 349px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->QUIMICAIVP3<=5) color:red; @endif ">{{$row->QUIMICAIVP3}}</p>
             <p style=" top: 380px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOLOGIAIIIP3<=5) color:red; @endif ">{{$row->BIOLOGIAIIIP3}}</p>
-            <p style=" top: 410px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->TCULDIGP3<=5) color:red; @endif ">{{$row->TCULDIGP3}}</p>
-            <p style=" top: 440px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ESPSOCP3<=5) color:red; @endif ">{{$row->ESPSOCP3}}</p>
-            <p style=" top: 470px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PLITP3<=5) color:red; @endif ">{{$row->PLITP3}}</p>
-            <p style=" top: 515px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S3FLABP3<=5) color:red; @endif ">{{$row->S3FLABP3}}</p>
-            <p style=" top: 545px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S4FLABP3<=5) color:red; @endif ">{{$row->S4FLABP3}}</p>
-            <p style=" top: 575px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDP3<=5) color:red; @endif ">{{$row->ORIEDP3}}</p>
-            <p style=" top: 605px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CCULP3<=5) color:red; @endif ">{{$row->CCULP3}}</p>
-            <p style=" top: 637px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CDEPP3<=5) color:red; @endif ">{{$row->CDEPP3}}</p>
-            <p style=" top: 667px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORVALP3<=5) color:red; @endif ">{{$row->FORVALP3}}</p>
-            
+            <p style=" top: 410px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOQUIMP3<=5) color:red; @endif ">{{$row->BIOQUIMP3}}</p>
+            <p style=" top: 440px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CIENSALP3<=5) color:red; @endif ">{{$row->CIENSALP3}}</p>
+            <p style=" top: 470px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PSICOLOGIAP3<=5) color:red; @endif ">{{$row->PSICOLOGIAP3}}</p>
+            <p style=" top: 515px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABP3<=5) color:red; @endif ">{{$row->CAPTRABP3}}</p>
+            <p style=" top: 545px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALP3<=5) color:red; @endif ">{{$row->CULTURALP3}}</p>
+            <p style=" top: 575px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOP3<=5) color:red; @endif ">{{$row->DEPORTIVOP3}}</p>
+            <p style=" top: 605px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCP3<=5) color:red; @endif ">{{$row->ORIEDUCP3}}</p>
+            <p style=" top: 637px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEP3<=5) color:red; @endif ">{{$row->FORMFEP3}}</p>
+            <p style=" top: 667px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAP3<=5) color:red; @endif ">{{$row->DISCIPLINAP3}}</p>
+
         <!-- Inasistencias 3er parcial -->
-            <p style=" top: 257px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->MATVIP3I}}</p>
-            <p style=" top: 288px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ESTADISCIIP3I}}</p>
-            <p style=" top: 319px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FISICAIVP3I}}</p>
-            <p style=" top: 349px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->QUIMICAIVP3I}}</p>
-            <p style=" top: 380px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->BIOLOGIAIIIP3I}}</p>
-            <p style=" top: 410px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->TCULDIGP3I}}</p>
-            <p style=" top: 440px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ESPSOCP3I}}</p>
-            <p style=" top: 470px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->PLITP3I}}</p>
-            <p style=" top: 515px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->S3FLABP3I}}</p>
-            <p style=" top: 545px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->S4FLABP3I}}</p>
-            <p style=" top: 575px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDP3I}}</p>
-            <p style=" top: 605px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CCULP3I}}</p>
-            <p style=" top: 637px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CDEPP3I}}</p>
-            <p style=" top: 667px;left: 515px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORVALP3I}}</p>
-            
+            <p style=" top: 257px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->MATVIP3I}}</p>
+            <p style=" top: 288px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ESTADISCIIP3I}}</p>
+            <p style=" top: 319px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FISICAIVP3I}}</p>
+            <p style=" top: 349px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->QUIMICAIVP3I}}</p>
+            <p style=" top: 380px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->BIOLOGIAIIIP3I}}</p>
+            <p style=" top: 410px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->BIOQUIMP3I}}</p>
+            <p style=" top: 440px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CIENSALP3I}}</p>
+            <p style=" top: 470px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->PSICOLOGIAP3I}}</p>
+            <p style=" top: 515px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CAPTRABP3I}}</p>
+            <p style=" top: 545px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CULTURALP3I}}</p>
+            <p style=" top: 575px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DEPORTIVOP3I}}</p>
+            <p style=" top: 605px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDUCP3I}}</p>
+            <p style=" top: 637px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORMFEP3I}}</p>
+            <p style=" top: 667px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DISCIPLINAP3I}}</p>
+
 
             <!-- Calificaciones-- promedio -->
-            <p style=" top: 257px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->MATVIPROM<=5) color:red; @endif ">{{$row->MATVIPROM}}</p>
+            <p style=" top: 257px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->MATVIProm<=5) color:red; @endif ">{{$row->MATVIProm}}</p>
             <p style=" top: 288px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ESTADISCIIPROM<=5) color:red; @endif ">{{$row->ESTADISCIIPROM}}</p>
             <p style=" top: 319px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FISICAIVPROM<=5) color:red; @endif ">{{$row->FISICAIVPROM}}</p>
             <p style=" top: 349px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->QUIMICAIVPROM<=5) color:red; @endif ">{{$row->QUIMICAIVPROM}}</p>
             <p style=" top: 380px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOLOGIAIIIPROM<=5) color:red; @endif ">{{$row->BIOLOGIAIIIPROM}}</p>
-            <p style=" top: 410px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->TCULDIGPROM<=5) color:red; @endif ">{{$row->TCULDIGPROM}}</p>
-            <p style=" top: 440px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ESPSOCPROM<=5) color:red; @endif ">{{$row->ESPSOCPROM}}</p>
-            <p style=" top: 470px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PLITPROM<=5) color:red; @endif ">{{$row->PLITPROM}}</p>
-            <p style=" top: 515px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S3FLABPROM<=5) color:red; @endif ">{{$row->S3FLABPROM}}</p>
-            <p style=" top: 545px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S4FLABPROM<=5) color:red; @endif ">{{$row->S4FLABPROM}}</p>
-            <p style=" top: 575px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDPROM<=5) color:red; @endif ">{{$row->ORIEDPROM}}</p>
-            <p style=" top: 605px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CCULPROM<=5) color:red; @endif ">{{$row->CCULPROM}}</p>
-            <p style=" top: 637px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CDEPPROM<=5) color:red; @endif ">{{$row->CDEPPROM}}</p>
-            <p style=" top: 667px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORVALPROM<=5) color:red; @endif ">{{$row->FORVALPROM}}</p>
-            
+            <p style=" top: 410px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOQUIMPROM<=5) color:red; @endif ">{{$row->BIOQUIMPROM}}</p>
+            <p style=" top: 440px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CIENSALPROM<=5) color:red; @endif ">{{$row->CIENSALPROM}}</p>
+            <p style=" top: 470px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PSICOLOGIAPROM<=5) color:red; @endif ">{{$row->PSICOLOGIAPROM}}</p>
+            <p style=" top: 515px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABPROM<=5) color:red; @endif ">{{$row->CAPTRABPROM}}</p>
+            <p style=" top: 545px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALPROM<=5) color:red; @endif ">{{$row->CULTURALPROM}}</p>
+            <p style=" top: 575px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOPROM<=5) color:red; @endif ">{{$row->DEPORTIVOPROM}}</p>
+            <p style=" top: 605px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCPROM<=5) color:red; @endif ">{{$row->ORIEDUCPROM}}</p>
+            <p style=" top: 637px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEPROM<=5) color:red; @endif ">{{$row->FORMFEPROM}}</p>
+            <p style=" top: 667px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAPROM<=5) color:red; @endif ">{{$row->DISCIPLINAPROM}}</p>
+
 
             <!-- Calificaciones-- Calificacion Final -->
             <p style=" top: 257px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->MATVICF<=5) color:red; @endif ">{{$row->MATVICF}}</p>
@@ -202,16 +202,16 @@
             <p style=" top: 319px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FISICAIVCF<=5) color:red; @endif ">{{$row->FISICAIVCF}}</p>
             <p style=" top: 349px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->QUIMICAIVCF<=5) color:red; @endif ">{{$row->QUIMICAIVCF}}</p>
             <p style=" top: 380px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOLOGIAIIICF<=5) color:red; @endif ">{{$row->BIOLOGIAIIICF}}</p>
-            <p style=" top: 410px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->TCULDIGCF<=5) color:red; @endif ">{{$row->TCULDIGCF}}</p>
-            <p style=" top: 440px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ESPSOCCF<=5) color:red; @endif ">{{$row->ESPSOCCF}}</p>
-            <p style=" top: 470px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PLITCF<=5) color:red; @endif ">{{$row->PLITCF}}</p>
-            <p style=" top: 515px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S3FLABCF<=5) color:red; @endif ">{{$row->S3FLABCF}}</p>
-            <p style=" top: 545px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S4FLABCF<=5) color:red; @endif ">{{$row->S4FLABCF}}</p>
-            <p style=" top: 575px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDCF<=5) color:red; @endif ">{{$row->ORIEDCF}}</p>
-            <p style=" top: 605px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CCULCF<=5) color:red; @endif ">{{$row->CCULCF}}</p>
-            <p style=" top: 637px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CDEPCF<=5) color:red; @endif ">{{$row->CDEPCF}}</p>
-            <p style=" top: 667px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORVALCF<=5) color:red; @endif ">{{$row->FORVALCF}}</p>
-           
+            <p style=" top: 410px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOQUIMCF<=5) color:red; @endif ">{{$row->BIOQUIMCF}}</p>
+            <p style=" top: 440px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CIENSALCF<=5) color:red; @endif ">{{$row->CIENSALCF}}</p>
+            <p style=" top: 470px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PSICOLOGIACF<=5) color:red; @endif ">{{$row->PSICOLOGIACF}}</p>
+            <p style=" top: 515px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABCF<=5) color:red; @endif ">{{$row->CAPTRABCF}}</p>
+            <p style=" top: 545px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALCF<=5) color:red; @endif ">{{$row->CULTURALCF}}</p>
+            <p style=" top: 575px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOCF<=5) color:red; @endif ">{{$row->DEPORTIVOCF}}</p>
+            <p style=" top: 605px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCCF<=5) color:red; @endif ">{{$row->ORIEDUCCF}}</p>
+            <p style=" top: 637px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFECF<=5) color:red; @endif ">{{$row->FORMFECF}}</p>
+            <p style=" top: 667px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINACF<=5) color:red; @endif ">{{$row->DISCIPLINACF}}</p>
+
 
             <!-- Calificaciones-- Calificacion extra1 -->
             <p style=" top: 257px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->MATVIEXT1<=5) color:red; @endif ">{{$row->MATVIEXT1}}</p>
@@ -219,16 +219,16 @@
             <p style=" top: 319px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FISICAIVEXT1<=5) color:red; @endif ">{{$row->FISICAIVEXT1}}</p>
             <p style=" top: 349px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->QUIMICAIVEXT1<=5) color:red; @endif ">{{$row->QUIMICAIVEXT1}}</p>
             <p style=" top: 380px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOLOGIAIIIEXT1<=5) color:red; @endif ">{{$row->BIOLOGIAIIIEXT1}}</p>
-            <p style=" top: 410px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->TCULDIGEXT1<=5) color:red; @endif ">{{$row->TCULDIGEXT1}}</p>
-            <p style=" top: 440px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ESPSOCEXT1<=5) color:red; @endif ">{{$row->ESPSOCEXT1}}</p>
-            <p style=" top: 470px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PLITEXT1<=5) color:red; @endif ">{{$row->PLITEXT1}}</p>
-            <p style=" top: 515px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S3FLABEXT1<=5) color:red; @endif ">{{$row->S3FLABEXT1}}</p>
-            <p style=" top: 545px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S4FLABEXT1<=5) color:red; @endif ">{{$row->S4FLABEXT1}}</p>
-            <p style=" top: 575px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDEXT1<=5) color:red; @endif ">{{$row->ORIEDEXT1}}</p>
-            <p style=" top: 605px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CCULEXT1<=5) color:red; @endif ">{{$row->CCULEXT1}}</p>
-            <p style=" top: 637px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CDEPEXT1<=5) color:red; @endif ">{{$row->CDEPEXT1}}</p>
-            <p style=" top: 667px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORVALEXT1<=5) color:red; @endif ">{{$row->FORVALEXT1}}</p>
-            
+            <p style=" top: 410px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOQUIMEXT1<=5) color:red; @endif ">{{$row->BIOQUIMEXT1}}</p>
+            <p style=" top: 440px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CIENSALEXT1<=5) color:red; @endif ">{{$row->CIENSALEXT1}}</p>
+            <p style=" top: 470px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PSICOLOGIAEXT1<=5) color:red; @endif ">{{$row->PSICOLOGIAEXT1}}</p>
+            <p style=" top: 515px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABEXT1<=5) color:red; @endif ">{{$row->CAPTRABEXT1}}</p>
+            <p style=" top: 545px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALEXT1<=5) color:red; @endif ">{{$row->CULTURALEXT1}}</p>
+            <p style=" top: 575px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOEXT1<=5) color:red; @endif ">{{$row->DEPORTIVOEXT1}}</p>
+            <p style=" top: 605px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCEXT1<=5) color:red; @endif ">{{$row->ORIEDUCEXT1}}</p>
+            <p style=" top: 637px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEEXT1<=5) color:red; @endif ">{{$row->FORMFEEXT1}}</p>
+            <p style=" top: 667px;left: 643px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAEXT1<=5) color:red; @endif ">{{$row->DISCIPLINAEXT1}}</p>
+
 
             <!-- Calificaciones-- Calificacion extra2 -->
             <p style=" top: 257px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->MATVIEXT2<=5) color:red; @endif ">{{$row->MATVIEXT2}}</p>
@@ -236,16 +236,16 @@
             <p style=" top: 319px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FISICAIVEXT2<=5) color:red; @endif ">{{$row->FISICAIVEXT2}}</p>
             <p style=" top: 349px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->QUIMICAIVEXT2<=5) color:red; @endif ">{{$row->QUIMICAIVEXT2}}</p>
             <p style=" top: 380px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOLOGIAIIIEXT2<=5) color:red; @endif ">{{$row->BIOLOGIAIIIEXT2}}</p>
-            <p style=" top: 410px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->TCULDIGEXT2<=5) color:red; @endif ">{{$row->TCULDIGEXT2}}</p>
-            <p style=" top: 440px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ESPSOCEXT2<=5) color:red; @endif ">{{$row->ESPSOCEXT2}}</p>
-            <p style=" top: 470px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PLITEXT2<=5) color:red; @endif ">{{$row->PLITEXT2}}</p>
-            <p style=" top: 515px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S3FLABEXT2<=5) color:red; @endif ">{{$row->S3FLABEXT2}}</p>
-            <p style=" top: 545px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->S4FLABEXT2<=5) color:red; @endif ">{{$row->S4FLABEXT2}}</p>
-            <p style=" top: 575px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDEXT2<=5) color:red; @endif ">{{$row->ORIEDEXT2}}</p>
-            <p style=" top: 605px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CCULEXT2<=5) color:red; @endif ">{{$row->CCULEXT2}}</p>
-            <p style=" top: 637px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CDEPEXT2<=5) color:red; @endif ">{{$row->CDEPEXT2}}</p>
-            <p style=" top: 667px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORVALEXT2<=5) color:red; @endif ">{{$row->FORVALEXT2}}</p>
-            <p style=" top: 698px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCPEXT2<=5) color:red; @endif ">{{$row->DISCPEXT2}}</p>
+            <p style=" top: 410px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->BIOQUIMEXT2<=5) color:red; @endif ">{{$row->BIOQUIMEXT2}}</p>
+            <p style=" top: 440px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CIENSALEXT2<=5) color:red; @endif ">{{$row->CIENSALEXT2}}</p>
+            <p style=" top: 470px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->PSICOLOGIAEXT2<=5) color:red; @endif ">{{$row->PSICOLOGIAEXT2}}</p>
+            <p style=" top: 515px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABEXT2<=5) color:red; @endif ">{{$row->CAPTRABEXT2}}</p>
+            <p style=" top: 545px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALEXT2<=5) color:red; @endif ">{{$row->CULTURALEXT2}}</p>
+            <p style=" top: 575px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOEXT2<=5) color:red; @endif ">{{$row->DEPORTIVOEXT2}}</p>
+            <p style=" top: 605px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCEXT2<=5) color:red; @endif ">{{$row->ORIEDUCEXT2}}</p>
+            <p style=" top: 637px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEEXT2<=5) color:red; @endif ">{{$row->FORMFEEXT2}}</p>
+            <p style=" top: 667px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAEXT2<=5) color:red; @endif ">{{$row->DISCIPLINAEXT2}}</p>
+
 
 
           <!-- Calificaciones-- y promedios secretaria-->
