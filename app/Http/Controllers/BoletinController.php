@@ -134,6 +134,49 @@ class BoletinController extends Controller
         //return $pdf->download(); 
     }
 
+    public function sextoCSH(){
+        // Reemplaza 'k9ff6o2p09290' con tu clave de SheetDB
+        $sheetdb = new SheetDB('r07j7u50dyy4i');
+        $arraycal = $sheetdb->get();
+
+         $data = [
+
+            'title' => 'Welcome to ItSolutionStuff.com',
+
+            'date' => date('m/d/Y'),
+
+            'rows' => $arraycal
+
+        ];
+
+        $pdf = PDF::loadView('boletin.sextoCSH', $data);
+        $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
+        return $pdf->stream('itsolutionstuff.pdf');
+        //return $pdf->download();
+    }
+
+    public function sextoEA(){
+        
+        // Reemplaza 'k9ff6o2p09290' con tu clave de SheetDB
+        $sheetdb = new SheetDB('ngi57a8i5f0pe');
+        $arraycal = $sheetdb->get();
+
+         $data = [
+
+            'title' => 'Welcome to ItSolutionStuff.com',
+
+            'date' => date('m/d/Y'),
+
+            'rows' => $arraycal
+
+        ];
+
+        $pdf = PDF::loadView('boletin.sextoEA', $data);
+        $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
+        return $pdf->stream('itsolutionstuff.pdf');
+        //return $pdf->download();
+    }
+
 
     /**
      * Show the form for creating a new resource.
