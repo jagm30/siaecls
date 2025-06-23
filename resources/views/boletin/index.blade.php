@@ -258,10 +258,9 @@
             <p style=" top: 775px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSEP2}}</p>
             <p style=" top: 775px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSEP3}}</p>
 
-             <!-- Calificaciones-- Institucionales y de la SEP  -->
-            <p style=" top: 780px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSALLE}}</p>
+                         <!-- Calificaciones-- Institucionales y de la SEP  -->
             <p style=" top: 805px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSEP}}</p>
-            
+            <p style=" top: 835px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSALLE}}</p>
 
         </div>
         <div class="page_break"></div>
