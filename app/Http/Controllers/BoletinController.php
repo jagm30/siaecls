@@ -29,7 +29,7 @@ class BoletinController extends Controller
         $pdf = PDF::loadView('boletin.index', $data);
         $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
         return $pdf->stream('itsolutionstuff.pdf');
-        //return $pdf->download(); 
+
     }
         public function segundoB(){
         $sheetdb = new SheetDB('ozcokb0se8t0l');
