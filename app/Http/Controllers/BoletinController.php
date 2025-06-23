@@ -17,20 +17,11 @@ class BoletinController extends Controller
     public function index()
     {
         $sheetdb = new SheetDB('3lmc9v4ac2s70');
-        
-        //return $sheetdb->get();
         $arraycal = $sheetdb->get();
-        
-        //$arraycal = [{"nombre":"jose","cal1":"7","cal2":"10","cal3":"5"},{"nombre":"antonio","cal1":"8","cal2":"9","cal3":"6"},{"nombre":"carlos","cal1":"10","cal2":"10","cal3":"10"}];
-        //$arraycal = ["nombre" => "jose", "cal1" => "10","cal2" => "8"];
-       // return $arraycal;
-        //return view('boletin.index', ['rows' => $arraycal]);
         $data = [
 
             'title' => 'Welcome to ItSolutionStuff.com',
-
             'date' => date('m/d/Y'),
-
             'rows' => $arraycal
 
         ]; 
@@ -38,7 +29,7 @@ class BoletinController extends Controller
         $pdf = PDF::loadView('boletin.index', $data);
         $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
         return $pdf->stream('itsolutionstuff.pdf');
-        //return $pdf->download(); 
+
     }
         public function segundoB(){
         $sheetdb = new SheetDB('ozcokb0se8t0l');
@@ -80,7 +71,7 @@ class BoletinController extends Controller
         $pdf = PDF::loadView('boletin.boletin4a', $data);
         $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
         return $pdf->stream('itsolutionstuff.pdf');
-        //return $pdf->download(); 
+        //return $pdf->download();  d
     }
 
      public function cuartoB(){
@@ -98,6 +89,46 @@ class BoletinController extends Controller
         ]; 
 
         $pdf = PDF::loadView('boletin.cuartoB', $data);
+        $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
+        return $pdf->stream('itsolutionstuff.pdf');
+        //return $pdf->download(); 
+    }
+    public function sextoQB(){
+        $sheetdb = new SheetDB('kdofqssslvrdw');
+        $arraycal = $sheetdb->get();
+
+         $data = [
+
+            'title' => 'Welcome to ItSolutionStuff.com',
+
+            'date' => date('m/d/Y'),
+
+            'rows' => $arraycal
+
+        ]; 
+
+        $pdf = PDF::loadView('boletin.sextoQB', $data);
+        $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
+        return $pdf->stream('itsolutionstuff.pdf');
+        //return $pdf->download(); 
+    }
+
+    public function boletincfm(){
+        // Reemplaza 'k9ff6o2p09290' con tu clave de SheetDB
+        $sheetdb = new SheetDB('k9ff6o2p09290');    
+        $arraycal = $sheetdb->get();
+
+         $data = [
+
+            'title' => 'Welcome to ItSolutionStuff.com',
+
+            'date' => date('m/d/Y'),
+
+            'rows' => $arraycal
+
+        ]; 
+
+        $pdf = PDF::loadView('boletin.boletincfm', $data);
         $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
         return $pdf->stream('itsolutionstuff.pdf');
         //return $pdf->download(); 

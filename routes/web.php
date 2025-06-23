@@ -22,5 +22,11 @@ Route::get('/boletin2b', [BoletinController::class, 'segundoB']);
 Route::get('/boletin4a', [BoletinController::class, 'boletin4a']);
 Route::get('/boletin4b', [BoletinController::class, 'cuartoB']);
 
+/*Rutas a secciones de 6to grado*/
+Route::get('/boletincfm', [BoletinController::class, 'boletinCFM']);
+Route::get('/boletin6csh', [BoletinController::class, 'sextoCSH']);
+Route::get('/boletin6ea', [BoletinController::class, 'sextoEA']);
+Route::get('/boletin6qb', [BoletinController::class, 'sextoQB']);
+
 
 

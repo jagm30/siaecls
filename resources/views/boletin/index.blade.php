@@ -3,7 +3,7 @@
 <head>
  <title></title>
     <style>
-            /** 
+            /**
             * Set the margins of the PDF to 0
             * so the background image will cover the entire page.
             **/
@@ -41,7 +41,7 @@
               background-color: #ECEDED;
               color: black;
             }
-            /** 
+            /**
             * Define the width, height, margins and position of the watermark.
             **/
             #watermark {
@@ -49,7 +49,7 @@
                 bottom:   0px;
                 left:     0px;
                 top:     0px;
-                /** The width and height may change 
+                /** The width and height may change
                     according to the dimensions of your letterhead
                 **/
                 width:    21cm;
@@ -68,14 +68,14 @@
              <img src="{{ public_path().'/img/fondo_boletin.jpg' }}" width="100%" height="100%">
         </div>
 
-        <main> 
+        <main>
 
         @foreach($rows as $row)
         <div id="contenido" class="contenido">
             <!-- Encabezado-->
-           
+
 	<p style=" top: 62px;left: 275px; height:15px; width:300px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; "> {{$row->NOMBRE}}</p>
-            <p style=" top: 104px;left: 278px; height:15px; width:90px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">2°B</p>
+            <p style=" top: 104px;left: 278px; height:15px; width:90px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">2°A</p>
             <p style=" top: 104px;left: 371px; height:15px; width:105px;  text-align: center;  position: absolute;font-weight: bold;font-size: 11px; color:black; background:none; ">  PREPARATORIA</p>
             <p style=" top: 101px;left: 476px; height:15px; width:90px;  text-align: center;  position: absolute;font-weight: bold;font-size: 10px; color:black; background:none; ">  2024-2025<br>SEMESTRE PAR</p>
 
@@ -144,7 +144,7 @@
             <p style=" top: 605px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FRANCESP2I}}</p>
             <p style=" top: 637px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->PPSLSP2I}}</p>
             <p style=" top: 667px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORMFEP2I}}</p>
-            <p style=" top: 698px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DISCIPLINAP2I}}</p>    
+            <p style=" top: 698px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DISCIPLINAP2I}}</p>
 
             <!-- Calificaciones-- 3er parcial -->
             <p style=" top: 257px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->LyCIIP3<=5) color:red; @endif ">{{$row->LyCIIP3}}</p>
@@ -177,7 +177,7 @@
             <p style=" top: 605px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FRANCESP3I}}</p>
             <p style=" top: 637px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->PPSLSP3I}}</p>
             <p style=" top: 667px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORMFEP3I}}</p>
-            <p style=" top: 698px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DISCIPLINAP3I}}</p>  
+            <p style=" top: 698px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DISCIPLINAP3I}}</p>
 
             <!-- Calificaciones-- promedio -->
             <p style=" top: 257px;left: 567px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->LyCIIProm<=5) color:red; @endif ">{{$row->LyCIIProm}}</p>
@@ -247,7 +247,7 @@
             <p style=" top: 667px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEEXT2<=5) color:red; @endif ">{{$row->FORMFEEXT2}}</p>
             <p style=" top: 698px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAEXT2<=5) color:red; @endif ">{{$row->DISCIPLINAEXT2}}</p>
 
-            
+
           <!-- Calificaciones-- y promedios secretaria-->
             <p style=" top: 745px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSALLEP1}}</p>
             <p style=" top: 745px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSALLEP2}}</p>
@@ -257,14 +257,18 @@
             <p style=" top: 775px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSEP1}}</p>
             <p style=" top: 775px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSEP2}}</p>
             <p style=" top: 775px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSEP3}}</p>
+
+             <!-- Calificaciones-- Institucionales y de la SEP  -->
+            <p style=" top: 780px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSALLE}}</p>
+            <p style=" top: 805px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSEP}}</p>
             
-               
+
         </div>
         <div class="page_break"></div>
         @endforeach
-            
 
-        </main> 
+
+        </main>
 
         <!--<br><table style='page-break-after:always;'></br></table><br>   //Salto de pagina -->
 </body>
