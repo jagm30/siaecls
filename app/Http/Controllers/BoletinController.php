@@ -128,7 +128,7 @@ class BoletinController extends Controller
 
         ]; 
 
-        $pdf = PDF::loadView('boletin.boletincf', $data);
+        $pdf = PDF::loadView('boletin.boletincfm', $data);
         $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
         return $pdf->stream('itsolutionstuff.pdf');
         //return $pdf->download(); 
