@@ -80,7 +80,7 @@ class BoletinController extends Controller
         $pdf = PDF::loadView('boletin.boletin4a', $data);
         $pdf = $pdf->setPaper('letter'); // Utiliza el tamaño carta predeterminado
         return $pdf->stream('itsolutionstuff.pdf');
-        //return $pdf->download(); 
+        //return $pdf->download();  d
     }
 
      public function cuartoB(){
