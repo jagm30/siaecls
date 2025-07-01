@@ -256,7 +256,7 @@
             <p style=" top: 805px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSALLE}}</p>
  
             
-`   
+   
 
         </div>
         <div class="page_break"></div>
