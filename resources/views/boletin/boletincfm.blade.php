@@ -240,7 +240,7 @@
             <p style=" top: 605px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEEXT2<=5) color:red; @endif ">{{$row->FORMFEEXT2}}</p>
             <p style=" top: 637px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCEXT2<=5) color:red; @endif ">{{$row->ORIEDUCEXT2}}</p>
             <p style=" top: 667px;left: 691px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAEXT2<=5) color:red; @endif ">{{$row->DISCIPLINAEXT2}}</p>
-v                 <!-- Calificaciones-- y promedios secretaria-->
+              <!-- Calificaciones-- y promedios secretaria-->
             <p style=" top: 710px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSEP1}}</p>
             <p style=" top: 710px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSEP2}}</p>
             <p style=" top: 710px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSEP3}}</p>
@@ -255,7 +255,7 @@ v                 <!-- Calificaciones-- y promedios secretaria-->
             <p style=" top: 805px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSEP}}</p>
  
             
-`   
+  
 
         </div>
         <div class="page_break"></div>
