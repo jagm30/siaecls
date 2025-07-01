@@ -65,7 +65,7 @@
 </head>
 <body>
      <div id="watermark">
-             <img src="{{ public_path().'/img/fondo_boletincsh.jpg' }}" width="100%" height="100%">
+             <img src="{{ public_path().'/img/fondo_boletincea.jpg' }}" width="100%" height="100%">
         </div>
 
         <main> 
@@ -126,7 +126,7 @@
             <p style=" top: 545px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CCULP2<=5) color:red; @endif ">{{$row->CCULP2}}</p>
             <p style=" top: 575px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CDEPP2<=5) color:red; @endif ">{{$row->CDEPP2}}</p>
             <p style=" top: 605px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUP2<=5) color:red; @endif ">{{$row->ORIEDUP2}}</p>
-            <p style=" top: 637px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORVALP1<=5) color:red; @endif ">{{$row->FORVALP1}}</p>
+            <p style=" top: 637px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORVALP2<=5) color:red; @endif ">{{$row->FORVALP2}}</p>
             <p style=" top: 667px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCP2<=5) color:red; @endif ">{{$row->DISCP2}}</p>
 
 

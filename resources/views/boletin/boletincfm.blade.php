@@ -91,8 +91,8 @@
             <p style=" top: 515px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABP1<=5) color:red; @endif">{{$row->CAPTRABP1}}</p>
             <p style=" top: 545px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALP1<=5) color:red; @endif">{{$row->CULTURALP1}}</p>
             <p style=" top: 575px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOP1<=5) color:red; @endif">{{$row->DEPORTIVOP1}}</p>
-            <p style=" top: 605px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEP1<=5) color:red; @endif">{{$row->FORMFEP1}}</p>
-            <p style=" top: 637px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCP1<=5) color:red; @endif">{{$row->ORIEDUCP1}}</p>
+            <p style=" top: 605px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCP1<=5) color:red; @endif">{{$row->ORIEDUCP1}}</p>
+            <p style=" top: 637px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEP1<=5) color:red; @endif">{{$row->FORMFEP1}}</p>
             <p style=" top: 667px;left: 345px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAP1<=5) color:red; @endif">{{$row->DISCIPLINAP1}}</p>
 
             <!-- Inasistencias 1er parcial -->
@@ -125,10 +125,9 @@
             <p style=" top: 515px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABP2<=5) color:red; @endif ">{{$row->CAPTRABP2}}</p>
             <p style=" top: 545px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALP2<=5) color:red; @endif ">{{$row->CULTURALP2}}</p>
             <p style=" top: 575px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOP2<=5) color:red; @endif ">{{$row->DEPORTIVOP2}}</p>
-            <p style=" top: 605px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEP2<=5) color:red; @endif ">{{$row->FORMFEP2}}</p>
-            <p style=" top: 637px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCP2<=5) color:red; @endif ">{{$row->ORIEDUCP2}}</p>
-            <p style=" top: 667px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAP1<=5) color:red; @endif ">{{$row->DISCIPLINAP1}}</p>
-
+            <p style=" top: 605px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCP2<=5) color:red; @endif ">{{$row->ORIEDUCP2}}</p>
+            <p style=" top: 637px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEP2<=5) color:red; @endif ">{{$row->FORMFEP2}}</p>
+            <p style=" top: 667px;left: 418px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAP2<=5) color:red; @endif ">{{$row->DISCIPLINAP2}}</p>
 
             <!-- Inasistencias 2do parcial -->
             <p style=" top: 257px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->MATVIP2I}}</p>
@@ -142,8 +141,8 @@
             <p style=" top: 515px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CAPTRABP2I}}</p>
             <p style=" top: 545px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CULTURALP2I}}</p>
             <p style=" top: 575px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DEPORTIVOP2I}}</p>
-            <p style=" top: 605px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORMFEP2I}}</p>
-            <p style=" top: 637px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDUCP2I}}</p>
+            <p style=" top: 605px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDUCP2I}}</p>
+            <p style=" top: 637px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORMFEP2I}}</p>
             <p style=" top: 667px;left: 456px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DISCIPLINAP1I}}</p>
 
             <!-- Calificaciones-- 3er parcial -->
@@ -158,8 +157,8 @@
             <p style=" top: 515px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABP3<=5) color:red; @endif ">{{$row->CAPTRABP3}}</p>
             <p style=" top: 545px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALP3<=5) color:red; @endif ">{{$row->CULTURALP3}}</p>
             <p style=" top: 575px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOP3<=5) color:red; @endif ">{{$row->DEPORTIVOP3}}</p>
-            <p style=" top: 605px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEP3<=5) color:red; @endif ">{{$row->FORMFEP3}}</p>
-            <p style=" top: 637px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCP3<=5) color:red; @endif ">{{$row->ORIEDUCP3}}</p>
+            <p style=" top: 605px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCP3<=5) color:red; @endif ">{{$row->ORIEDUCP3}}</p>
+            <p style=" top: 637px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFEP3<=5) color:red; @endif ">{{$row->FORMFEP3}}</p>
             <p style=" top: 667px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINAP3<=5) color:red; @endif ">{{$row->DISCIPLINAP3}}</p>
         <!-- Inasistencias 3er parcial -->
             <p style=" top: 257px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->MATVIP3I}}</p>
@@ -173,8 +172,8 @@
             <p style=" top: 515px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CAPTRABP3I}}</p>
             <p style=" top: 545px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CULTURALP3I}}</p>
             <p style=" top: 575px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DEPORTIVOP3I}}</p>
-            <p style=" top: 605px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORMFEP3I}}</p>
-            <p style=" top: 637px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDUCP3I}}</p>
+            <p style=" top: 605px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->ORIEDUCP3I}}</p>
+            <p style=" top: 637px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->FORMFEP3I}}</p>
             <p style=" top: 667px;left: 530px; height:15px; width:34px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->DISCIPLINAP3I}}</p>
 
             <!-- Calificaciones-- promedio -->
@@ -205,8 +204,8 @@
             <p style=" top: 515px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CAPTRABCF<=5) color:red; @endif ">{{$row->CAPTRABCF}}</p>
             <p style=" top: 545px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->CULTURALCF<=5) color:red; @endif ">{{$row->CULTURALCF}}</p>
             <p style=" top: 575px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DEPORTIVOCF<=5) color:red; @endif ">{{$row->DEPORTIVOCF}}</p>
-            <p style=" top: 605px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFECF<=5) color:red; @endif ">{{$row->FORMFECF}}</p>
-            <p style=" top: 637px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCCF<=5) color:red; @endif ">{{$row->ORIEDUCCF}}</p>
+            <p style=" top: 605px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->ORIEDUCCF<=5) color:red; @endif ">{{$row->ORIEDUCCF}}</p>
+            <p style=" top: 637px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->FORMFECF<=5) color:red; @endif ">{{$row->FORMFECF}}</p>
             <p style=" top: 667px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; @if($row->DISCIPLINACF<=5) color:red; @endif ">{{$row->DISCIPLINACF}}</p>
 
             <!-- Calificaciones-- Calificacion extra1 -->
@@ -251,8 +250,8 @@
             <p style=" top: 745px;left: 492px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none; ">{{$row->CALSALLEP3}}</p>
   
             <!-- Calificaciones-- Institucionales y de la SEP  -->
-            <p style=" top: 780px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSALLE}}</p>
-            <p style=" top: 805px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSEP}}</p>
+            <p style=" top: 780px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSEP}}</p>
+            <p style=" top: 805px;left: 602px; height:15px; width:38px;  text-align: center;  position: absolute;font-weight: bold;font-size: 12px; color:black; background:none;">{{$row->CFSALLE}}</p>
  
             
   
