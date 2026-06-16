@@ -16,7 +16,7 @@ class BoletinController extends Controller
 
     public function index()
     {
-        $sheetdb = new SheetDB('3lmc9v4ac2s70');
+        $sheetdb = new SheetDB('w13rfwyya7fzp');
         $arraycal = $sheetdb->get();
         $data = [
 
@@ -136,7 +136,7 @@ class BoletinController extends Controller
 
     public function sextoCSH(){
         // Reemplaza 'k9ff6o2p09290' con tu clave de SheetDB
-        $sheetdb = new SheetDB('r07j7u50dyy4i');
+        $sheetdb = new SheetDB('uk20yzhf408zm');
         $arraycal = $sheetdb->get();
 
          $data = [
